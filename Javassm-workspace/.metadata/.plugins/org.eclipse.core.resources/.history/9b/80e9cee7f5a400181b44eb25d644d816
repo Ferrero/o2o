@@ -1,0 +1,8 @@
+package com.imooc.o2o.dao;
+/**
+* @author xf
+* @version 2018年8月21日 上午11:52:39
+*/
+public class ProductImgDaoTest {
+
+}

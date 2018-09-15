@@ -1,0 +1,404 @@
+
+7月 11, 2018 11:06:00.73 NEW SESSION
+7月 11, 2018 11:06:00.73 [5148:6728:0711/110600.726:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 11:08:28.88 [5148:6728:0711/110828.888:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 11:11:31.00 [5148:6728:0711/111131.006:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 11:15:30.56 [5148:6728:0711/111530.563:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 11:20:32.22 [5148:6728:0711/112032.228:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 11:28:00.34 [5148:6728:0711/112800.347:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 11:40:06.36 [5148:6728:0711/114006.365:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 11:52:12.38 [5148:6728:0711/115212.381:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 12:04:18.42 [5148:6728:0711/120418.427:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 12:16:24.45 [5148:6728:0711/121624.451:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 12:28:30.56 [5148:6728:0711/122830.568:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 12:40:36.63 [5148:6728:0711/124036.635:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 12:52:42.69 [5148:6728:0711/125242.689:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 13:04:48.70 [5148:6728:0711/130448.702:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 13:16:54.73 [5148:6728:0711/131654.737:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 13:29:00.76 [5148:6728:0711/132900.759:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 13:41:06.83 [5148:6728:0711/134106.835:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 11, 2018 13:53:13.09 [5148:6728:0711/135313.089:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+7月 15, 2018 22:37:39.17 NEW SESSION
+7月 15, 2018 22:37:39.17 [6332:5160:0715/223739.166:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 15, 2018 22:40:14.03 [6332:5160:0715/224014.034:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 15, 2018 22:43:18.62 [6332:5160:0715/224318.620:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 15, 2018 22:47:20.32 [6332:5160:0715/224720.326:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 15, 2018 22:52:54.06 [6332:5160:0715/225254.067:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+7月 16, 2018 16:52:32.40 NEW SESSION
+7月 16, 2018 16:52:32.40 [1332:5604:0716/165232.396:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 16, 2018 16:52:57.67 [1332:5604:0716/165257.674:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 16, 2018 16:53:48.03 [1332:5604:0716/165348.033:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 16, 2018 16:55:27.42 [1332:5604:0716/165527.424:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 16, 2018 16:59:05.51 [1332:5604:0716/165905.513:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 16, 2018 17:05:52.37 [1332:5604:0716/170552.371:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+7月 17, 2018 09:54:38.67 NEW SESSION
+7月 17, 2018 09:54:38.67 [3200:5112:0717/095438.666:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 09:57:34.45 [3200:5112:0717/095734.453:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 10:00:55.33 [3200:5112:0717/100055.330:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 10:05:00.33 [3200:5112:0717/100500.329:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 10:10:48.60 [3200:5112:0717/101048.604:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 10:14:42.13 [3200:4864:0717/101442.131:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 17, 2018 10:14:42.15 [3200:4864:0717/101442.156:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 17, 2018 10:14:43.82 [3200:4864:0717/101443.828:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 17, 2018 10:14:43.85 [3200:4864:0717/101443.852:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+7月 17, 2018 10:20:07.42 [3200:5112:0717/102007.419:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 10:32:34.46 [3200:5112:0717/103234.467:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 10:45:01.52 [3200:5112:0717/104501.523:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 10:57:28.56 [3200:5112:0717/105728.560:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 11:09:55.59 [3200:5112:0717/110955.594:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 11:22:22.63 [3200:5112:0717/112222.634:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 11:34:49.74 [3200:5112:0717/113449.744:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 11:47:17.74 [3200:5112:0717/114717.744:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 17, 2018 11:54:53.84 [3200:4864:0717/115453.847:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+7月 17, 2018 11:55:05.50 [3200:4864:0717/115505.505:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+
+7月 27, 2018 09:48:10.14 NEW SESSION
+7月 27, 2018 09:48:10.14 [5432:5416:0727/094810.142:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7月 27, 2018 09:48:53.08 [2068:3724:0727/094853.081:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+
+7月 27, 2018 15:56:33.87 NEW SESSION
+7月 27, 2018 15:56:33.87 [3024:4668:0727/155633.867:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7月 27, 2018 16:35:06.58 
+7月 27, 2018 16:35:06.58 runtime error R6016
+7月 27, 2018 16:35:06.59 - not enough space for thread data
+7月 27, 2018 17:47:21.05 
+7月 27, 2018 17:47:21.05 runtime error R6016
+7月 27, 2018 17:47:21.06 - not enough space for thread data
+
+7月 29, 2018 13:32:15.54 NEW SESSION
+7月 29, 2018 13:32:15.54 [4872:1288:0729/133215.536:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7月 29, 2018 13:32:15.99 [4872:1288:0729/133215.993:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+7月 29, 2018 14:39:08.42 
+7月 29, 2018 14:39:08.42 runtime error R6016
+7月 29, 2018 14:39:08.42 - not enough space for thread data
+7月 29, 2018 14:53:28.53 Unable to read VR Path Registry from C:\Users\Rong\AppData\Local\openvr\openvrpaths.vrpath
+7月 29, 2018 14:53:28.53 [4872:1288:0729/145328.532:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:53:30.09 [4872:1288:0729/145330.095:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:53:31.66 [4872:1288:0729/145331.662:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:53:33.22 [4872:1288:0729/145333.222:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:53:34.79 [4872:1288:0729/145334.790:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:53:36.35 [4872:1288:0729/145336.357:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:53:37.91 [4872:1288:0729/145337.918:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:53:39.48 [4872:1288:0729/145339.481:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:39.56 [4872:1288:0729/145439.563:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:41.13 [4872:1288:0729/145441.134:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:42.69 [4872:1288:0729/145442.696:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:44.26 [4872:1288:0729/145444.265:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:45.82 [4872:1288:0729/145445.827:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:47.39 [4872:1288:0729/145447.391:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:48.95 [4872:1288:0729/145448.957:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:50.52 [4872:1288:0729/145450.525:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:52.08 [4872:1288:0729/145452.086:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:53.64 [4872:1288:0729/145453.646:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:55.21 [4872:1288:0729/145455.209:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:56.77 [4872:1288:0729/145456.774:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:58.33 [4872:1288:0729/145458.331:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:54:59.89 [4872:1288:0729/145459.892:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:01.45 [4872:1288:0729/145501.450:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:03.01 [4872:1288:0729/145503.015:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:04.57 [4872:1288:0729/145504.572:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:06.13 [4872:1288:0729/145506.135:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:07.70 [4872:1288:0729/145507.704:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:09.26 [4872:1288:0729/145509.267:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:10.83 [4872:1288:0729/145510.829:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:12.39 [4872:1288:0729/145512.393:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:13.95 [4872:1288:0729/145513.957:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:15.51 [4872:1288:0729/145515.517:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:17.08 [4872:1288:0729/145517.082:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:18.65 [4872:1288:0729/145518.650:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:20.21 [4872:1288:0729/145520.215:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:27.40 [4872:1288:0729/145527.401:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:28.97 [4872:1288:0729/145528.970:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:30.53 [4872:1288:0729/145530.533:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:32.10 [4872:1288:0729/145532.099:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:33.67 [4872:1288:0729/145533.669:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:35.23 [4872:1288:0729/145535.235:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:36.80 [4872:1288:0729/145536.805:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:38.37 [4872:1288:0729/145538.373:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:39.94 [4872:1288:0729/145539.939:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:41.51 [4872:1288:0729/145541.510:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:43.07 [4872:1288:0729/145543.076:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:44.65 [4872:1288:0729/145544.654:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:46.22 [4872:1288:0729/145546.221:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:47.79 [4872:1288:0729/145547.789:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:49.36 [4872:1288:0729/145549.361:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:50.93 [4872:1288:0729/145550.936:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:52.50 [4872:1288:0729/145552.503:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:54.07 [4872:1288:0729/145554.074:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:55.64 [4872:1288:0729/145555.640:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:57.26 [4872:1288:0729/145557.210:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:55:58.78 [4872:1288:0729/145558.781:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:00.35 [4872:1288:0729/145600.353:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:01.92 [4872:1288:0729/145601.927:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:03.49 [4872:1288:0729/145603.489:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:05.05 [4872:1288:0729/145605.056:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:06.62 [4872:1288:0729/145606.623:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:08.19 [4872:1288:0729/145608.195:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:09.77 [4872:1288:0729/145609.772:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:11.34 [4872:1288:0729/145611.341:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:12.90 [4872:1288:0729/145612.903:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:14.47 [4872:1288:0729/145614.470:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:16.03 [4872:1288:0729/145616.035:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:17.60 [4872:1288:0729/145617.602:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:19.17 [4872:1288:0729/145619.173:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:20.74 [4872:1288:0729/145620.743:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:22.31 [4872:1288:0729/145622.313:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:23.88 [4872:1288:0729/145623.882:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:25.45 [4872:1288:0729/145625.455:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:27.02 [4872:1288:0729/145627.027:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:28.59 [4872:1288:0729/145628.594:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:30.16 [4872:1288:0729/145630.164:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:31.73 [4872:1288:0729/145631.733:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:33.29 [4872:1288:0729/145633.296:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:34.86 [4872:1288:0729/145634.867:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:36.43 [4872:1288:0729/145636.434:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:38.00 [4872:1288:0729/145638.003:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:39.57 [4872:1288:0729/145639.569:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:41.13 [4872:1288:0729/145641.134:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:42.70 [4872:1288:0729/145642.703:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:44.27 [4872:1288:0729/145644.269:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:45.84 [4872:1288:0729/145645.839:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:47.41 [4872:1288:0729/145647.413:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:48.98 [4872:1288:0729/145648.980:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:50.55 [4872:1288:0729/145650.551:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:52.12 [4872:1288:0729/145652.118:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:53.68 [4872:1288:0729/145653.685:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:55.25 [4872:1288:0729/145655.250:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:56.81 [4872:1288:0729/145656.818:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:58.39 [4872:1288:0729/145658.389:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:56:59.95 [4872:1288:0729/145659.957:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:57:01.53 [4872:1288:0729/145701.531:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:57:03.10 [4872:1288:0729/145703.103:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:57:04.67 [4872:1288:0729/145704.669:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:57:06.24 [4872:1288:0729/145706.239:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:57:07.81 [4872:1288:0729/145707.813:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:57:09.37 [4872:1288:0729/145709.377:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:57:10.94 [4872:1288:0729/145710.944:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:57:12.51 [4872:1288:0729/145712.511:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:57:14.08 [4872:1288:0729/145714.085:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:57:15.65 [4872:1288:0729/145715.655:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 14:57:17.22 [4872:1288:0729/145717.224:ERROR:latency_info.cc(164)] Display::DrawAndSwap, LatencyInfo vector size 102 is too big.
+7月 29, 2018 15:05:48.93 [4872:1288:0729/150548.932:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+7月 29, 2018 15:05:48.93 [4872:1288:0729/150548.932:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+7月 29, 2018 15:05:48.93 [4872:1288:0729/150548.932:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+7月 29, 2018 15:05:48.93 [4872:1288:0729/150548.932:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+7月 29, 2018 15:05:48.93 [4872:1288:0729/150548.932:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+7月 29, 2018 15:05:48.93 [4872:1288:0729/150548.932:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+7月 29, 2018 15:05:48.93 [4872:1288:0729/150548.933:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+7月 29, 2018 15:05:48.93 [4872:1288:0729/150548.933:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+7月 29, 2018 15:05:48.93 [4872:1288:0729/150548.933:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+7月 29, 2018 15:05:48.93 [4872:1288:0729/150548.933:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+7月 29, 2018 15:05:48.93 [4872:1288:0729/150548.933:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+7月 29, 2018 15:05:48.93 [4872:1288:0729/150548.933:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+7月 29, 2018 15:05:48.94 [4872:1288:0729/150548.933:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+
+8月 01, 2018 17:57:58.54 NEW SESSION
+8月 01, 2018 17:57:58.54 [8892:5320:0801/175758.543:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+
+8月 02, 2018 09:29:41.54 NEW SESSION
+8月 02, 2018 09:29:41.54 [5076:5104:0802/092941.539:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+
+8月 05, 2018 16:18:46.18 NEW SESSION
+8月 05, 2018 16:18:46.18 [1744:3612:0805/161846.179:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+8月 05, 2018 16:18:46.64 [1744:3612:0805/161846.645:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 05, 2018 16:18:46.64 [1744:3612:0805/161846.645:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 05, 2018 16:18:46.64 [1744:3612:0805/161846.646:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 05, 2018 16:18:46.65 [1744:3612:0805/161846.646:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+
+8月 06, 2018 17:50:10.29 NEW SESSION
+8月 06, 2018 17:50:10.30 [5860:6832:0806/175010.297:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+8月 06, 2018 19:51:21.42 Unable to read VR Path Registry from C:\Users\Rong\AppData\Local\openvr\openvrpaths.vrpath
+8月 06, 2018 19:51:21.42 [5860:6832:0806/195121.424:ERROR:CONSOLE(32)] "Uncaught TypeError: Cannot read property 'displayName' of undefined", source: chrome://settings/lazy_load.crisper.js (32)
+8月 06, 2018 19:51:21.42 [5860:6832:0806/195121.424:ERROR:CONSOLE(32)] "Uncaught TypeError: Cannot read property 'displayName' of undefined", source: chrome://settings/lazy_load.crisper.js (32)
+
+8月 07, 2018 10:26:34.85 NEW SESSION
+8月 07, 2018 10:26:34.85 [5396:5960:0807/102634.847:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+8月 07, 2018 10:26:57.38 [5396:1232:0807/102657.380:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 07, 2018 10:27:18.70 [5396:1232:0807/102718.701:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 07, 2018 11:21:27.46 Unable to read VR Path Registry from C:\Users\Rong\AppData\Local\openvr\openvrpaths.vrpath
+8月 07, 2018 11:21:27.46 [5396:5960:0807/112127.463:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 07, 2018 11:24:21.64 [5396:5960:0807/112421.641:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 07, 2018 11:27:35.43 [5396:5960:0807/112735.435:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+8月 11, 2018 10:41:39.58 NEW SESSION
+8月 11, 2018 10:41:39.58 [5064:696:0811/104139.584:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+8月 11, 2018 10:41:40.75 [5064:696:0811/104139.973:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 11, 2018 10:41:40.75 [5064:696:0811/104139.973:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 11, 2018 10:41:40.75 [5064:696:0811/104139.973:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 11, 2018 10:41:40.75 [5064:696:0811/104139.973:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 11, 2018 10:41:40.75 [5064:696:0811/104139.973:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 11, 2018 10:41:40.82 [5064:2804:0811/104140.820:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 11, 2018 10:41:40.84 [5064:2804:0811/104140.848:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 11, 2018 10:49:56.76 Unable to read VR Path Registry from C:\Users\Rong\AppData\Local\openvr\openvrpaths.vrpath
+8月 11, 2018 10:49:56.76 [5064:696:0811/104956.762:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 10:52:43.92 [5064:696:0811/105243.921:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 10:55:52.44 [5064:696:0811/105552.446:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 11:00:14.42 [5064:696:0811/110014.423:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 11:05:29.47 [5064:696:0811/110529.472:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 11:15:11.84 [5064:696:0811/111511.844:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+8月 11, 2018 14:48:45.57 NEW SESSION
+8月 11, 2018 14:48:45.57 [1632:7016:0811/144845.571:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+8月 11, 2018 14:49:28.65 [1632:7296:0811/144928.654:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 11, 2018 14:50:10.74 Unable to read VR Path Registry from C:\Users\Rong\AppData\Local\openvr\openvrpaths.vrpath
+8月 11, 2018 14:50:10.75 [1632:7296:0811/145010.747:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 11, 2018 14:59:07.79 [1632:7016:0811/145907.788:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 15:02:02.19 [1632:7016:0811/150202.197:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 15:05:12.43 [1632:7016:0811/150512.430:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 15:09:11.44 [1632:7016:0811/150911.443:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 15:14:56.32 [1632:7016:0811/151456.320:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 15:22:58.35 [1632:7016:0811/152258.351:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 15:35:25.40 [1632:7016:0811/153525.399:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 15:47:52.46 [1632:7016:0811/154752.460:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 16:00:19.54 [1632:7016:0811/160019.538:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 16:12:46.63 [1632:7016:0811/161246.637:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 16:25:13.75 [1632:7016:0811/162513.748:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 16:37:42.85 [1632:7016:0811/163742.851:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 16:50:09.95 [1632:7016:0811/165009.955:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 17:02:37.05 [1632:7016:0811/170237.050:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 17:15:04.17 [1632:7016:0811/171504.176:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 17:27:31.28 [1632:7016:0811/172731.284:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 17:39:58.36 [1632:7016:0811/173958.361:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 17:52:26.22 [1632:7016:0811/175226.225:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 18:04:53.36 [1632:7016:0811/180453.365:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 21:04:58.78 [1632:7016:0811/210458.781:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 21:17:04.87 [1632:7016:0811/211704.870:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 21:29:10.95 [1632:7016:0811/212910.954:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 21:41:17.05 [1632:7016:0811/214117.057:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 11, 2018 21:53:23.16 [1632:7016:0811/215323.166:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 12, 2018 10:13:52.02 [1632:7016:0812/101352.019:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+8月 17, 2018 10:56:31.53 NEW SESSION
+8月 17, 2018 10:56:31.53 [3304:4192:0817/105631.527:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+8月 17, 2018 10:56:31.96 [3304:4192:0817/105631.969:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 17, 2018 10:56:31.97 [3304:4192:0817/105631.969:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 17, 2018 10:56:31.97 [3304:4192:0817/105631.969:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 17, 2018 10:56:31.97 [3304:4192:0817/105631.969:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 17, 2018 10:56:31.97 [3304:4192:0817/105631.969:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 17, 2018 10:56:31.97 [3304:4192:0817/105631.969:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 17, 2018 10:56:31.97 [3304:4192:0817/105631.969:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 17, 2018 10:59:41.91 Unable to read VR Path Registry from C:\Users\Rong\AppData\Local\openvr\openvrpaths.vrpath
+8月 17, 2018 10:59:41.92 [3304:3584:0817/105941.917:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 17, 2018 11:00:57.76 [3304:4192:0817/110057.766:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 17, 2018 11:02:50.97 [3304:3584:0817/110250.969:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 17, 2018 11:03:50.41 [3304:4192:0817/110350.408:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 17, 2018 11:07:09.91 [3304:4192:0817/110709.915:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 17, 2018 11:11:12.72 [3304:4192:0817/111112.723:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 17, 2018 11:17:13.84 [3304:4192:0817/111713.844:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 17, 2018 11:25:47.54 [3304:4192:0817/112547.548:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 17, 2018 11:38:14.58 [3304:4192:0817/113814.579:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 17, 2018 11:50:41.58 [3304:4192:0817/115041.585:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+8月 18, 2018 13:41:33.37 NEW SESSION
+8月 18, 2018 13:41:33.37 [2604:4980:0818/134133.369:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+8月 18, 2018 13:41:55.39 [2604:4804:0818/134155.391:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 18, 2018 13:42:16.33 [2604:4804:0818/134216.330:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 18, 2018 13:50:52.07 Unable to read VR Path Registry from C:\Users\Rong\AppData\Local\openvr\openvrpaths.vrpath
+8月 18, 2018 13:50:52.07 [2604:4980:0818/135052.076:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 13:53:24.00 [2604:4980:0818/135324.001:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 13:56:10.38 [2604:4980:0818/135610.380:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 13:59:49.85 [2604:4980:0818/135949.850:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 14:05:45.06 [2604:4980:0818/140545.065:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 14:13:24.71 [2604:4980:0818/141324.715:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 14:25:29.73 [2604:4980:0818/142529.731:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 14:37:34.34 [2604:4980:0818/143734.347:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 14:49:38.91 [2604:4980:0818/144938.915:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 15:01:43.34 [2604:4980:0818/150143.348:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 15:13:47.84 [2604:4980:0818/151347.840:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 15:25:53.32 [2604:4980:0818/152553.322:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 15:36:56.90 [2604:4980:0818/153656.904:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 15:47:15.62 [2604:4980:0818/154715.620:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 15:59:21.69 [2604:4980:0818/155921.689:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 16:11:27.72 [2604:4980:0818/161127.723:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 18, 2018 16:23:33.75 [2604:4980:0818/162333.757:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+8月 28, 2018 09:35:37.70 NEW SESSION
+8月 28, 2018 09:35:37.71 [5816:3232:0828/093537.704:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+8月 28, 2018 09:35:38.65 [5816:3232:0828/093538.655:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 28, 2018 09:35:38.65 [5816:3232:0828/093538.655:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 28, 2018 09:35:38.65 [5816:3232:0828/093538.655:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 28, 2018 09:35:38.66 [5816:3232:0828/093538.655:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 28, 2018 09:35:38.66 [5816:3232:0828/093538.655:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 28, 2018 09:35:38.66 [5816:3232:0828/093538.655:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 28, 2018 09:35:38.66 [5816:3232:0828/093538.655:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 28, 2018 09:35:38.66 [5816:3232:0828/093538.655:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 28, 2018 09:35:38.66 [5816:3232:0828/093538.655:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 28, 2018 09:35:38.66 [5816:3232:0828/093538.656:ERROR:in_progress_cache_impl.cc(188)] Cache is not initialized, cannot RetrieveEntry.
+8月 28, 2018 09:36:01.05 [5816:3612:0828/093601.051:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 28, 2018 09:36:21.96 [5816:3612:0828/093621.964:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 28, 2018 09:47:00.39 Unable to read VR Path Registry from C:\Users\Rong\AppData\Local\openvr\openvrpaths.vrpath
+8月 28, 2018 09:47:00.39 [5816:3232:0828/094700.395:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 09:49:55.55 [5816:3232:0828/094955.549:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 09:53:19.85 [5816:3232:0828/095319.852:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 09:57:45.87 [5816:3232:0828/095745.870:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 10:03:15.80 [5816:3232:0828/100315.807:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 10:12:16.73 [5816:3232:0828/101216.732:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 10:24:41.54 [5816:3232:0828/102441.548:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 10:37:07.35 [5816:3232:0828/103707.348:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 10:49:32.23 [5816:3232:0828/104932.237:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 11:01:57.47 [5816:3232:0828/110157.468:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 11:14:21.90 [5816:3232:0828/111421.907:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 11:26:46.57 [5816:3232:0828/112646.574:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 11:39:11.13 [5816:3232:0828/113911.129:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 11:51:36.00 [5816:3232:0828/115136.003:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 12:04:01.03 [5816:3232:0828/120401.031:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 12:16:27.45 [5816:3232:0828/121627.454:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 12:28:53.16 [5816:3232:0828/122853.168:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 12:41:18.82 [5816:3232:0828/124118.825:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 12:53:44.44 [5816:3232:0828/125344.441:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 13:06:10.13 [5816:3232:0828/130610.136:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 13:18:35.59 [5816:3232:0828/131835.593:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 13:31:01.52 [5816:3232:0828/133101.524:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 13:43:27.11 [5816:3232:0828/134327.113:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 13:55:52.92 [5816:3232:0828/135552.925:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 14:08:19.66 [5816:3232:0828/140819.666:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 14:20:46.73 [5816:3232:0828/142046.731:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 14:33:13.78 [5816:3232:0828/143313.785:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 14:36:32.22 [5816:3232:0828/143632.218:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+8月 28, 2018 14:36:32.22 [5816:3232:0828/143632.218:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+8月 28, 2018 14:36:32.22 [5816:3232:0828/143632.218:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+8月 28, 2018 14:36:32.22 [5816:3232:0828/143632.219:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected number", source: chrome-devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@a337fbf3c2ab8ebc6b64b0bfdce73a20e2e2252b/&can_dock=true&dockSide=undocked (1)
+8月 28, 2018 14:45:40.84 [5816:3232:0828/144540.847:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 14:58:08.27 [5816:3232:0828/145808.268:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 15:10:35.45 [5816:3232:0828/151035.451:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 15:23:02.51 [5816:3232:0828/152302.516:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 15:25:40.34 [5816:3612:0828/152540.339:ERROR:socket_dispatcher_host.cc(97)] Failed to resolve address for x., errorcode: -105
+8月 28, 2018 15:25:40.34 [5816:3612:0828/152540.339:ERROR:socket_dispatcher_host.cc(97)] Failed to resolve address for x., errorcode: -105
+8月 28, 2018 15:35:29.57 [5816:3232:0828/153529.569:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 15:44:27.15 [5816:3224:0828/154427.154:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+8月 28, 2018 15:44:47.27 [5816:10104:0828/154447.274:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+8月 28, 2018 15:44:55.88 [5816:9224:0828/154455.885:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+8月 28, 2018 15:45:01.08 [5816:6776:0828/154501.084:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+8月 28, 2018 15:45:30.07 [5816:7776:0828/154530.069:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+8月 28, 2018 15:47:56.62 [5816:3232:0828/154756.624:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 16:00:23.68 [5816:3232:0828/160023.680:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 16:12:50.74 [5816:3232:0828/161250.738:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 16:25:17.81 [5816:3232:0828/162517.812:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 16:37:44.87 [5816:3232:0828/163744.869:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 16:50:11.94 [5816:3232:0828/165011.944:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 17:02:39.02 [5816:3232:0828/170239.027:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 17:48:40.08 [5816:3232:0828/174840.079:ERROR:CONSOLE(32)] "Uncaught TypeError: Cannot read property 'displayName' of undefined", source: chrome://settings/lazy_load.crisper.js (32)
+8月 28, 2018 17:48:40.08 [5816:3232:0828/174840.079:ERROR:CONSOLE(32)] "Uncaught TypeError: Cannot read property 'displayName' of undefined", source: chrome://settings/lazy_load.crisper.js (32)
+8月 28, 2018 19:49:36.88 [5816:3232:0828/194936.886:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 19:52:05.24 [5816:3232:0828/195205.243:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 19:55:05.83 [5816:3232:0828/195505.830:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 19:58:45.29 [5816:3232:0828/195845.295:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 20:04:50.15 [5816:3232:0828/200450.151:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 20:13:12.45 [5816:3612:0828/201312.454:ERROR:ssl_client_socket_impl.cc(1026)] handshake failed; returned -1, SSL error code 1, net_error -101
+8月 28, 2018 20:13:15.90 [5816:3232:0828/201315.902:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 20:25:22.25 [5816:3232:0828/202522.248:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 20:37:28.63 [5816:3232:0828/203728.632:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 20:49:34.98 [5816:3232:0828/204934.978:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 21:01:41.35 [5816:3232:0828/210141.354:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 21:13:47.71 [5816:3232:0828/211347.709:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 21:25:54.07 [5816:3232:0828/212554.076:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 21:38:00.46 [5816:3232:0828/213800.460:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 21:50:06.91 [5816:3232:0828/215006.913:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 22:02:13.30 [5816:3232:0828/220213.305:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 22:14:19.68 [5816:3232:0828/221419.684:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 22:26:26.09 [5816:3232:0828/222626.096:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 22:38:32.46 [5816:3232:0828/223832.463:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+8月 28, 2018 22:50:38.81 [5816:3232:0828/225038.813:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.

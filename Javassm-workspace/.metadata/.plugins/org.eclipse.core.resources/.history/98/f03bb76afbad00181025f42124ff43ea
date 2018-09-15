@@ -1,0 +1,8 @@
+package com.imooc.o2o.service;
+/**
+* @author xf
+* @version 2018年9月1日 下午8:23:16
+*/
+public class ProductImgService {
+
+}

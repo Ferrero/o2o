@@ -1,0 +1,9 @@
+package com.imooc.o2o.enums;
+/**
+* @author xf
+* @version 2018年9月14日 下午4:02:52
+*/
+public enum LocalAuthEnum {
+	private  int state;
+	private String stateInfo;
+}

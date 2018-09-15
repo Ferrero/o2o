@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 定义命名规范，表示按照 mybatis-3-mapper.dtd来命名标签-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 命名空间，xml与dao一一对应 -->
+<mapper namespace="com.imooc.o2o.dao.AreaDao">
+	<select id="queryArea" resultType="com.imooc.o2o.entity.Area">
+	<!--id:对应接口方法名； resultType：当条记录返回值的类型，每条记录对应Area实体类 -->
+		SELECT area_id,area_name,priority,create_time,last_edit_time
+		FROM tb_area
+		ORDER BY priority DESC
+	</select>
+</mapper>

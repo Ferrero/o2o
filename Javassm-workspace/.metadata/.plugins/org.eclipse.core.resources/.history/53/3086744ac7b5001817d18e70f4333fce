@@ -1,0 +1,8 @@
+package com.imooc.o2o.web.frontend;
+/**
+* @author xf
+* @version 2018年9月11日 下午9:19:54
+*/
+public class ProductDetail {
+
+}

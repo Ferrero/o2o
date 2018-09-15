@@ -1,0 +1,64 @@
+package com.imooc.o2o.dao;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import com.imooc.o2o.BaseTest;
+import com.imooc.o2o.entity.ProductCategory;
+import exceptions.ProductCategoryException;
+
+/**
+* @author xf
+* @version 2018年8月10日 下午4:49:59
+*/
+
+
+public class ProductCategoryDaoTest extends BaseTest {
+	@Autowired 
+	private ProductCategoryDao productCategoryDao;
+	
+	@Test
+	@Ignore
+	public void testQueryProductCategory() throws Exception {
+		Long shopId = 1L;
+		List<ProductCategory> productCategoryList = productCategoryDao.queryProductCategoryList(shopId);
+		//assertEquals(3,productCategoryList.size());
+		assertEquals(3, productCategoryList.size());
+		System.out.println("该店铺自定义类别数为：" + productCategoryList.size());
+		//assertEquals("店铺商品类别1", productCategoryList.get(0).getProductCategoryName());
+	}
+	
+	@Test
+	@Ignore
+	public void testInsertProductCategory() throws ProductCategoryException {
+		ProductCategory productCategory1 = new ProductCategory();
+		productCategory1.setProductCategoryName("商品类别5");
+		productCategory1.setPriority(1);
+		productCategory1.setShopId(1L);
+		productCategory1.setCreateTime(new Date());
+		ProductCategory productCategory2 = new ProductCategory();
+		productCategory2.setProductCategoryName("商品类别6");
+		productCategory2.setPriority(2);
+		productCategory2.setShopId(1L);
+		productCategory2.setCreateTime(new Date());
+		List<ProductCategory> productCategoryList = new ArrayList<ProductCategory>();
+		productCategoryList.add(productCategory1);
+		productCategoryList.add(productCategory2);
+		int effectedNum = productCategoryDao.batchInsertProductCategory(productCategoryList);
+		assertEquals(2, effectedNum);
+	}
+	@Test
+	public void testDeleteProductCategory() {
+		ProductCategory pc1 = new ProductCategory();
+		pc1.setProductCategoryId(14L);
+		pc1.setShopId(1L);
+		int effectedNum = productCategoryDao.deleteProductcategory(pc1.getProductCategoryId(),pc1.getShopId());
+		assertEquals(1,effectedNum);
+	}
+
+}

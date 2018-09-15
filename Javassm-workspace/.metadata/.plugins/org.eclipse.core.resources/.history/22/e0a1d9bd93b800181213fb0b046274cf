@@ -1,0 +1,27 @@
+package com.imooc.o2o.enums;
+/**
+* @author xf
+* @version 2018年9月14日 下午4:02:52
+*/
+public enum LocalAuthEnum {
+	SUCCESS(1,"成功"), LOCAL_AUTH_INFO(-1001,"账号信息为空")
+	private  int state;
+	private String stateInfo;
+	public int getState() {
+		return state;
+	}
+	public void setState(int state) {
+		this.state = state;
+	}
+	public String getStateInfo() {
+		return stateInfo;
+	}
+	public void setStateInfo(String stateInfo) {
+		this.stateInfo = stateInfo;
+	}
+	private LocalAuthEnum(int state, String stateInfo) {
+		this.state = state;
+		this.stateInfo = stateInfo;
+	}
+	
+}

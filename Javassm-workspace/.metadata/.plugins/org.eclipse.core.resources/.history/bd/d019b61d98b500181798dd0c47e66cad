@@ -1,0 +1,8 @@
+package com.imooc.o2o.web.frontend;
+/**
+* @author xf
+* @version 2018年9月11日 上午11:59:03
+*/
+public class ShopDetailController {
+
+}

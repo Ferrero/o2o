@@ -1,0 +1,32 @@
+package com.imooc.o2o.dao;
+
+import org.junit.Ignore;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.imooc.o2o.BaseTest;
+import com.imooc.o2o.entity.LocalAuth;
+
+/**
+* @author xf
+* @version 2018年9月12日 下午5:18:14
+*/
+public class LocalAuthDaoTest extends BaseTest{
+
+	@Autowired 
+	private LocalAuthDao localAuthDao;
+	@Test
+	@Ignore
+	public void testQueryLocalDao() {
+		String userName = "倒带年华";
+		String password = "123456";
+		LocalAuth localAuth = localAuthDao.queryByNameAndPassword(userName, password);
+		System.out.println(localAuth.getUserName());
+	}
+	@Test
+	public void testQueryByUserId() {
+		Long userId = 1L;
+		LocalAuth localAuth = localAuthDao.queryByUserId(userId);
+		System.out.println(localAuth.getUserName() + "---" + localAuth.getPersonInfo().getUserId());
+	}
+}

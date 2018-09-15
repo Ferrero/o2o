@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 定义命名规范，表示按照 mybatis-3-mapper.dtd来命名标签-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 命名空间，xml与dao一一对应 -->
+<!-- 批量插入，index="index"在非计数的情况下可以不用写 -->
+<mapper namespace="com.imooc.o2o.dao.ProductImgDao">
+	<insert id="batchInsertProductImg" parameterType="java.util.List">
+		INSERT INTO 
+		tb_product_img(img_addr, img_desc, priority, create_time, product_id)
+		VALUES
+		<foreach collection="list" item="productImg" separator=",">
+		(
+		#{productImg.imgAddr},
+		#{productImg.imgDesc},
+		#{productImg.priority},
+		#{productImg.createTime},
+		#{productImg.productId}
+		)
+		</foreach>
+	</insert>
+	<delete id="deleteProductImgByProductId" parameterType="Long">
+		DELETE FROM 
+		tb_product_img
+		WHERE
+		product_id = #{productId}
+	</delete>
+	<select id="queryProductImgByproductId" parameterType="Long" resultType="com.imooc.o2o.entity.ProductImg">
+		SELECT 
+		product_img_id,
+		img_addr,
+		img_desc,
+		priority,
+		create_time,
+		product_id
+		FROM tb_product_img
+		WHERE
+		product_id = #{productId}
+	</select>
+</mapper>

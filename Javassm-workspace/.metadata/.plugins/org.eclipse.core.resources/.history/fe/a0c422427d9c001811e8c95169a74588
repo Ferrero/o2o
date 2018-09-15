@@ -1,0 +1,25 @@
+package com.imooc.o2o.dao;
+
+import java.util.List;
+
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.imooc.o2o.BaseTest;
+import com.imooc.o2o.entity.ProductCategory;
+
+/**
+* @author xf
+* @version 2018年8月10日 下午4:49:59
+*/
+
+
+public class ProductCategoryDaoTest extends BaseTest {
+	@Autowired ProductCategoryDao productCategoryDao;
+	@Test
+	public void testQueryProductCategory() {
+		List<ProductCategory> productCategoryList = productCategoryDao.getProductCategory();
+	}
+	
+
+}

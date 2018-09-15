@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 定义命名规范，表示按照 mybatis-3-mapper.dtd来命名标签-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.MavenDemo.mapper.ScoreMapper">
+
+	<select id="queryScore" resultType="com.imooc.MavenDemo.entity.Score">
+		select * from tb_student_score
+		 <where>
+		 <if test="studentId != null">
+		 	student_id=#{studentId}	
+		 </if>
+		 </where> 
+	</select>
+	
+	<insert id="insertScore">
+	insert into
+	tb_student_score(student_id,name,chinese_score,math_score,english_score)
+	values
+	(#{studentId},#{name},#{chineseScore},#{mathScore},#{englishScore})
+	</insert> 
+	
+</mapper>

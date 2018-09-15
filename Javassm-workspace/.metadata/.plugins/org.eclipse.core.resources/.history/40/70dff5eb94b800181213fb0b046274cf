@@ -1,0 +1,52 @@
+package com.imooc.o2o.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.imooc.o2o.dao.LocalAuthDao;
+import com.imooc.o2o.dto.LocalAuthExecution;
+import com.imooc.o2o.entity.LocalAuth;
+import com.imooc.o2o.enums.LocalAuthEnum;
+import com.imooc.o2o.service.LocalAuthService;
+
+import exceptions.LocalAuthException;
+
+/**
+* @author xf
+* @version 2018年9月13日 下午2:15:53
+*/
+@Service
+public class LocalAuthServiceImpl implements LocalAuthService {
+	@Autowired
+	private LocalAuthDao localAuthDao;
+	@Override
+	public LocalAuth getLocalAuthByUserNameAndpwd(String userName, String password) {
+		return localAuthDao.queryByNameAndPassword(userName, password);
+	}
+	@Override
+	public LocalAuth getLocalAuthByUserId(Long userId) {
+		
+		return localAuthDao.queryByUserId(userId);
+	}
+	@Override
+	@Transactional
+	public LocalAuthExecution bindLocalAuth(LocalAuth localAuth) throws LocalAuthException {
+		//空值判断，传入的localAuth账号密码，用户信息特别是userId不能为空
+		if(localAuth != null || localAuth.getUserName() != null || localAuth.getPassword() != null
+				|| localAuth.getPersonInfo() != null || localAuth.getPersonInfo().getUserId() != null) {
+			return new LocalAuthException(LocalAuthEnum.NULL_AUTH_INFO);
+		}else {
+			throw new LocalAuthException("用户信息不能为空");
+		}
+		
+		return null;
+	}
+	@Override
+	public LocalAuthExecution updateLocalAuth(Long userId, String userName, String password, String newPassword)
+			throws LocalAuthException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

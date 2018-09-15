@@ -1,0 +1,17 @@
+127.0.0.1 - - [05/Aug/2018:16:18:44 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:18:47 +0800] "GET /o2o/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:18:47 +0800] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:18:58 +0800] "GET /o2o/shopadmin/shopoperation HTTP/1.1" 500 25385
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:19:08 +0800] "GET /o2o/shopadmin/shopoperation HTTP/1.1" 500 25385
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:20:04 +0800] "GET /o2o/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:20:18 +0800] "GET /o2o/shopadmin/shopoperation HTTP/1.1" 500 25385
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:22:05 +0800] "GET /o2o/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:22:12 +0800] "GET /o2o/shopadmin/shopoperation HTTP/1.1" 500 25385
+127.0.0.1 - - [05/Aug/2018:16:26:28 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:26:29 +0800] "GET /o2o/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:26:39 +0800] "GET /o2o/shopadmin/shopoperation HTTP/1.1" 200 5848
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:26:39 +0800] "GET /o2o/resources/js/common/common.js HTTP/1.1" 200 106
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:26:39 +0800] "GET /o2o/resources/js/shop/shopoperation.js HTTP/1.1" 200 2622
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:26:39 +0800] "GET /o2o/Kaptcha HTTP/1.1" 200 3270
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:26:40 +0800] "GET /o2o/shopadmin/getshopinitinfo HTTP/1.1" 200 404
+0:0:0:0:0:0:0:1 - - [05/Aug/2018:16:28:08 +0800] "POST /o2o/shopadmin/registershop HTTP/1.1" 200 27

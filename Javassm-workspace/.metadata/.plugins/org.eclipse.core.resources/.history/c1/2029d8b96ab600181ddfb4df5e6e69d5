@@ -1,0 +1,8 @@
+package com.imooc.o2o.dao;
+/**
+* @author xf
+* @version 2018年9月12日 下午4:54:29
+*/
+public class LocalAuthDao {
+
+}

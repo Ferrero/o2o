@@ -1,0 +1,19 @@
+package com.imooc.o2o.dao;
+
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.imooc.o2o.BaseTest;
+
+/**
+* @author xf
+* @version 2018年8月21日 下午3:20:04
+*/
+public class ProductDaoTest extends BaseTest {
+	@Autowired
+	private ProductDao productDao;
+	@Test
+	public void testInsertProduct() {
+		
+	} 
+}

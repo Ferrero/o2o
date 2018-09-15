@@ -1,0 +1,85 @@
+package com.imooc.o2o.service.impl;
+
+import java.util.Date;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.imooc.o2o.dao.LocalAuthDao;
+import com.imooc.o2o.dto.LocalAuthExecution;
+import com.imooc.o2o.entity.LocalAuth;
+import com.imooc.o2o.enums.LocalAuthEnum;
+import com.imooc.o2o.service.LocalAuthService;
+
+import exceptions.LocalAuthException;
+
+/**
+* @author xf
+* @version 2018年9月13日 下午2:15:53
+*/
+@Service
+public class LocalAuthServiceImpl implements LocalAuthService {
+	@Autowired
+	private LocalAuthDao localAuthDao;
+	@Override
+	public LocalAuth getLocalAuthByUserNameAndpwd(String userName, String password) {
+		return localAuthDao.queryByNameAndPassword(userName, password);
+	}
+	@Override
+	public LocalAuth getLocalAuthByUserId(Long userId) {
+		
+		return localAuthDao.queryByUserId(userId);
+	}
+	@Override
+	@Transactional
+	public LocalAuthExecution bindLocalAuth(LocalAuth localAuth) throws LocalAuthException {
+		//空值判断，传入的localAuth账号密码，用户信息特别是userId不能为空
+		if(localAuth == null || localAuth.getUserName() == null || localAuth.getPassword() == null
+				|| localAuth.getPersonInfo() == null || localAuth.getPersonInfo().getUserId() == null) {
+			return new LocalAuthExecution(LocalAuthEnum.NULL_AUTH_INFO);
+		}
+		
+		//查询此用户是否已绑定过平台账号
+		LocalAuth tempAuth = localAuthDao.queryByUserId(localAuth.getPersonInfo().getUserId());
+		if(tempAuth != null) {
+			//如果绑定过则直接退出，以保证平台账号的唯一性
+			return new LocalAuthExecution(LocalAuthEnum.ONLY_ONE_ACCOUNT);
+		}
+		try {
+			//如果之前没有绑定过平台账号，则创建一个平台账号与该用户绑定
+			localAuth.setCreateTime(new Date());
+			localAuth.setLastEditTime(new Date());
+			int effectedNum = localAuthDao.insertLocalAuth(localAuth);
+			//判断创建是否成功
+			if(effectedNum > 0) {
+				return new LocalAuthExecution(LocalAuthEnum.SUCCESS);
+			}else {
+				throw new LocalAuthException("账号绑定失败");
+			}
+		}catch(Exception e) {
+			throw new LocalAuthException("账号绑定失败" + e.getMessage());
+		}
+	}
+	@Override
+	@Transactional
+	public LocalAuthExecution updateLocalAuth(Long userId, String userName, String password, String newPassword)
+			throws LocalAuthException {
+		//非空判断，判断传入的用户id,账号，新旧密码是否为空，新旧密码是否相同
+		if(userId != null && userName != null && password != null && newPassword != null 
+				&& !password.equals(newPassword)) {
+			return new LocalAuthExecution(LocalAuthEnum.NULL_AUTH_INFO);
+		}
+		Date lastEditTime = new Date();
+		int effectedNum = localAuthDao.updateLocalAuth(userId, userName, password, newPassword, lastEditTime);
+		try {
+			if(effectedNum <= 0) {
+				throw new LocalAuthException("修改账号信息失败");
+			}else {
+				return new LocalAuthExecution(LocalAuthEnum.SUCCESS,localAuth);
+			}
+		}catch(Exception e) {
+			throw new LocalAuthException("修改账号信息失败" + e.getMessage());
+		}
+	}
+}

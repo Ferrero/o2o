@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 定义命名规范，表示按照 mybatis-3-mapper.dtd来命名标签-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.o2o.dao.LocalAuthDao">
+<resultMap type="com.imooc.o2o.entity.LocalAuth" id="localAuthMap">
+	<id column="local_auth_id" property="localAuthId"/>
+	<result column="user_name" property="userName"/>
+	<result column="password" property="password"/>
+	<result column="create_time" property="createTime"/>
+	<result column="last_edit_time" property="lastEditTime"/>
+	<association property="personInfo" javaType="com.imooc.o2o.entity.PersonInfo">
+		<id column="user_id" property="userId"/>
+		<result column="name" property="name"/>
+		<result column="profile_img" property="profileImg"/>
+		<result column="email" property="email"/>
+		<result column="gender" property="gender"/>
+		<result column="enable_status" property="enableStatus"/>
+		<result column="user_type" property="userType"/>
+		<result column="create_time" property="createTime"/>
+		<result column="last_edit_time" property="lastEditTime"/>
+	</association>
+
+</resultMap>
+	<select id="queryByNameAndPassword" resultMap="localAuthMap">
+		SELECT 
+		l.local_auth_id,
+		l.user_name,
+		l.password,
+		l.create_time,
+		l.last_edit_time,
+		p.user_id,
+		p.name,
+		p.profile_img,
+		p.email,
+		p.gender,
+		p.enable_status,
+		p.user_type,
+		p.create_time,
+		p.last_edit_time
+		FROM
+		tb_local_auth l
+		LEFT JOIN
+		tb_person_info p
+		ON l.user_id = p.user_id
+		WHERE
+		user_name = #{userName}
+		AND
+		password = #{password}
+	</select>
+	<select id="queryByUserId" resultMap="localAuthMap" parameterType="Long">
+		SELECT 
+		l.local_auth_id,
+		l.user_name,
+		l.password,
+		l.create_time,
+		l.last_edit_time,
+		p.user_id,
+		p.name,
+		p.profile_img,
+		p.email,
+		p.gender,
+		p.enable_status,
+		p.user_type,
+		p.create_time,
+		p.last_edit_time
+		FROM
+		tb_local_auth l
+		LEFT JOIN
+		tb_person_info p
+		ON l.user_id = p.user_id
+		WHERE
+		p.user_id = #{userId}
+	</select>
+</mapper>

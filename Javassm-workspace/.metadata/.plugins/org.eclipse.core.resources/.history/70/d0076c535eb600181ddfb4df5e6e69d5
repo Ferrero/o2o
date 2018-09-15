@@ -1,0 +1,21 @@
+package com.imooc.o2o.dao;
+
+import javax.servlet.http.HttpServletRequest;
+
+
+import com.imooc.o2o.entity.Shop;
+
+/**
+* @author xf
+* @version 2018年9月12日 下午3:26:26
+*/
+public class attribute {
+
+	public void doget(HttpServletRequest request) {
+		Shop shop = new Shop();
+		shop.setShopName("大润发");
+		request.setAttribute("shop", shop);
+		Shop shop1 = (Shop) request.getAttribute("shop");
+		
+	}
+}

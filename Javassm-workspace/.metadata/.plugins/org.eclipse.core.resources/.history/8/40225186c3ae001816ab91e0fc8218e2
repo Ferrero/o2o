@@ -1,0 +1,62 @@
+package com.imooc.o2o.service;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.imooc.o2o.BaseTest;
+import com.imooc.o2o.dto.ImageHolder;
+import com.imooc.o2o.entity.Product;
+import com.imooc.o2o.entity.ProductImg;
+import com.imooc.o2o.entity.Shop;
+
+/**
+* @author xf
+* @version 2018年9月1日 下午8:23:16
+*/
+public class ProductImgService extends BaseTest {
+	@Autowired
+	private ProductService productService;
+	
+	@Test
+	public void testUpdateProduct() throws FileNotFoundException {
+		Long productId = 1L;
+		Long shopId = 1L;
+		Product product = new Product();
+		Shop shop = new Shop();
+		shop.setShopId(shopId);
+		product.setProductId(productId);
+		product.setProductName("优酷视频黄金会员");
+		product.setLastEditTime(new Date());
+		product.setProductDesc("这世界很酷");
+		product.setShop(shop);
+		
+		File file = new File("C:/image/lanqiao.jpg");
+		InputStream is = new FileInputStream(file);
+		ImageHolder thumbnail = new ImageHolder(file.getName(), is);
+		
+		File productImg1 = new File("C:image/lanqiao.jpg");
+		InputStream inputStream1 = new FileInputStream(file);
+		ImageHolder imageHolder1 = new ImageHolder(productImg1.getName(), inputStream1);
+		
+		File productImg2 = new File("C:/xiaohuanren.jpg");
+		FileInputStream inputStream2 = new FileInputStream(productImg2);
+		ImageHolder imageHolder2 = new ImageHolder(productImg2.getName(), inputStream2);
+		
+		
+		List<ImageHolder>productImgList = new ArrayList<ImageHolder>();
+		productImgList.add(imageHolder1);
+		productImgList.add(imageHolder2);
+		
+		
+		productService.updateProduct(product, thumbnail, productImgList);
+		
+	}
+}

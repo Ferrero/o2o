@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Success.html</title>
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <script type = "text/javascript">
+        var uname = localStorage.getItem("uname");
+        var pwd = localStorage.getItem("pwd");
+        //console.log(`用户名${uname}，密码${pwd}`);
+
+        function tiao() {
+            clearInterval(myTime);
+            window.open("manage.html", "_self");
+        }
+
+        setTimeout("tiao()", 5000)
+
+        function changeSec(){
+            $('myspan').innerText = $('myspan').innerText - 1;
+        }
+
+        function $(id){
+            return document.getElementById(id);
+        }
+
+        var mytime = setInterval("changeSec()", 1000);
+
+    //    清空缓存
+        localStorage.clear();
+    </script>
+
+</head>
+<body>
+登陆成功，<span id = "myspan">5</span>秒后自动跳转到管理页面
+</body>
+</html>

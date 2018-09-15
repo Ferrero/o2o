@@ -1,0 +1,42 @@
+package com.imooc.o2o.service;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Ignore;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.imooc.o2o.BaseTest;
+import com.imooc.o2o.dto.LocalAuthExecution;
+import com.imooc.o2o.entity.LocalAuth;
+import com.imooc.o2o.entity.PersonInfo;
+
+/**
+* @author xf
+* @version 2018年9月15日 下午2:10:29
+*/
+public class LocalAuthTest extends BaseTest{
+	@Autowired 
+	private LocalAuthService localAuthSerice;
+	@Test
+	@Ignore
+	public void testInsertAuth() {
+		LocalAuth localAuth = new LocalAuth();
+		localAuth.setUserName("vogue");
+		localAuth.setPassword("123456");
+		PersonInfo personInfo = new PersonInfo();
+		personInfo.setUserId(2L);
+		localAuth.setPersonInfo(personInfo);
+		localAuthSerice.bindLocalAuth(localAuth);
+	}
+	
+	@Test
+	public void testupdateAuth() {
+		Long userId = 2L;
+		String userName = "vogue";
+		String password = "123456";
+		String newPassword = "111111";
+		LocalAuthExecution effectedNum = localAuthSerice.updateLocalAuth(userId, userName, password, newPassword);
+		assertEquals(1, effectedNum);
+	}
+}

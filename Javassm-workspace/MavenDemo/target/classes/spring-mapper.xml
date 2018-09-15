@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 定义xml schema的命名空间规则，通过xmlns指定xsd文件的约束文件位置。作用：1.避免命名冲突 ，将不同的作用的标签分门别类-->
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans.xsd  
+    http://www.springframework.org/schema/context  
+    http://www.springframework.org/schema/context/spring-context.xsd">  
+    <!-- 配置整合mybatis过程 -->  
+    <!-- 1.配置数据库相关参数properties的属性：${url} -->  
+    <context:property-placeholder location="classpath:jdbc.properties" />  
+  
+    <!-- 2.数据库连接池 -->  
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">  
+        <!-- 配置连接池属性 -->  
+        <property name="driverClass" value="${jdbc.driver}" />  
+        <property name="jdbcUrl" value="${jdbc.url}" />  
+        <property name="user" value="${jdbc.username}" />  
+        <property name="password" value="${jdbc.password}" />  
+  
+        <!-- c3p0连接池的私有属性 -->
+		<!-- 每60秒检查连接池中的所有空闲连接 -->  
+		<property name="idleConnectionTestPeriod" value="60"/>
+		<!-- 初始化时获取五个连接，该值在maxPoolSize和minPoolSize之间取值 -->
+		<property name="initialPoolSize" value="5"/>
+        <property name="maxPoolSize" value="30" />  
+        <property name="minPoolSize" value="10" /> 
+        <!-- 最大闲置时间，60秒内未使用则该连接被丢弃，若0则永不丢弃 -->
+        <property name="maxIdleTime" value="60"/> 
+        <!-- JDBC的标准参数，用以控制数据源内加载的PreparedStatements数量。但由于预缓存的statements    
+          属于单个connection而不是整个连接池。所以设置这个参数需要考虑到多方面的因素。    
+          如果maxStatements与maxStatementsPerConnection均为0，则缓存被关闭。Default: 0 -->
+        <property name="maxStatements" value="100"/>
+        <!-- 定义了连接池内单个连接所拥有的最大缓存statements数。Default: 0 -->
+        <property name="maxStatementsPerConnection" value="3"/>
+        <!-- 定义所有连接测试都执行的测试语句。在使用连接测试的情况下这个一显著提高测试速度。注意： 测试的表必须在初始数据源的时候就存在。Default: null -->
+        <property name="preferredTestQuery" value="select1"/>
+        <!-- 关闭连接后不自动commit -->  
+        <property name="autoCommitOnClose" value="false" />  
+        <!-- 当获取连接失败重试次数 -->  
+        <property name="acquireRetryAttempts" value="3" /> 
+        <!-- 两次连接中间隔1000毫秒。 -->
+        <property name="acquireRetryDelay" value="1000"/>
+        <!-- 获取连接超时时间  当连接池用完时，客户端调用getConnection()后等待获取新连接的时间，超时后将抛出SQLException,
+        如果设为0则无限等待，单位是毫秒，default:0 -->
+        <property name="checkoutTimeout" value="3000"/> 
+    </bean>  
+  
+    <!-- 3.配置SqlSessionFactory对象 -->  
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">  
+        <!-- 注入数据库连接池 -->  
+        <property name="dataSource" ref="dataSource" />  
+        <!-- 配置MyBaties全局配置文件:mybatis-config.xml -->  
+        <property name="configLocation" value="classpath:mybatis-config.xml" />  
+        <!-- 扫描entity包 使用别名 -->  
+        <property name="typeAliasesPackage" value="com.imooc.MavenDemo.entity" />  
+        <!-- 扫描sql配置文件:mapper需要的xml文件 -->  
+        <property name="mapperLocations" value="classpath:mapper/*.xml" />  
+    </bean>  
+  
+    <!-- 4.配置扫描Dao接口包，动态实现Dao接口，注入到spring容器中 -->  
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">  
+        <!-- 注入sqlSessionFactory -->  
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />  
+        <!-- 给出需要扫描Dao接口包 -->  
+        <property name="basePackage" value="com.imooc.MavenDemo.mapper" />  
+    </bean>  
+</beans> 

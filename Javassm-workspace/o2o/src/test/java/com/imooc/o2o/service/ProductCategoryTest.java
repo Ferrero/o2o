@@ -1,0 +1,28 @@
+package com.imooc.o2o.service;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.List;
+
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.imooc.o2o.BaseTest;
+import com.imooc.o2o.entity.ProductCategory;
+
+/**
+* @author xf
+* @version 2018年8月10日 下午10:26:43
+*/
+public class ProductCategoryTest extends BaseTest {
+	@Autowired 
+	private ProductCategoryService productCategoryService;
+	@Test
+	public void testProductCategory() {
+		long shopId = 1;
+		List<ProductCategory> productCategoryList= productCategoryService.getProductCategoryList(shopId);
+		assertEquals(3, productCategoryList.size());
+		assertEquals("店铺商品类别1",productCategoryList.get(0).getProductCategoryName());
+		System.out.println(productCategoryList.get(0).getProductCategoryName());
+	}
+}

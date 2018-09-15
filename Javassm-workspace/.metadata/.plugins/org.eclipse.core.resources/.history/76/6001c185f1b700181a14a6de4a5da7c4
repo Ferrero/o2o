@@ -1,0 +1,8 @@
+package com.imooc.o2o.dto;
+/**
+* @author xf
+* @version 2018年9月14日 下午3:37:04
+*/
+public class LocalAuthExecution {
+
+}

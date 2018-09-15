@@ -1,0 +1,11 @@
+package com.imooc.o2o.service;
+
+import com.imooc.o2o.entity.LocalAuth;
+
+/**
+* @author xf
+* @version 2018年9月13日 下午2:10:23
+*/
+public interface LocalAuthService {
+	LocalAuth queryByNameAndPassWord(String userName, String password);
+}

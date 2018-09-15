@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 定义命名规范，表示按照 mybatis-3-mapper.dtd来命名标签-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 命名空间，xml与dao一一对应 -->
+<mapper namespace="com.imooc.o2o.dao.ProductDao">
+<!--执行INSERT操作后获取记录主键(product_id), 数据库(如MySQL,SQLServer)支持auto-generated key field的情况-->
+	<resultMap type="com.imooc.o2o.entity.Product" id="productMap">
+		<id column="product_id" property="productId"/>
+		<result column="product_name" property="productName"/>
+		<result column="product_desc" property="productDesc"/>
+		<result column="img_addr" property="imgAddr"/>
+		<result column="normal_price" property="normalPrice"/>
+		<result column="promotion_price" property="promotionPrice"/>
+		<result column="priority" property="priority"/>
+		<result column="create_time" property="createTime"/>
+		<result column="last_edit_time" property="lastEditTime"/>
+		<result column="enable_status" property="enableStatus"/>
+		<association property="productCategory" column="product_category_id" javaType="com.imooc.o2o.entity.ProductCategory">
+			<id column="product_category_id" property="productCategoryId"/>
+			<result column="product_category_name" property="productCategoryName"/>
+		</association>		
+		<association property="shop" column="shop_id"  javaType="com.imooc.o2o.entity.Shop">
+			<id column="shop_id" property="shopId"/>
+			<result column="owner_id" property="ownerId"/>
+			<result column="shop_name" property="shopName"/>
+		</association>
+		<collection property="productImgList" column="product_id" ofType="com.imooc.o2o.entity.ProductImg">
+			<id column="product_img_id" property="productImgId"/>
+			<result column="img_addr" property="imgAddr"/>
+			<result column="img_desc" property="imgDesc"/>
+			<result column="priority" property="priority"/>
+			<result column="create_time" property="createTime"/>
+			<result column="product_id" property="productId"/>
+		</collection>
+	</resultMap>
+	<sql id="product">
+		product_id,
+		product_name,
+		product_desc,
+		img_addr,
+		normal_price,
+		promotion_price,
+		priority,
+		create_time,
+		last_edit_time,
+		enable_status,
+		product_category_id,
+		shop_id
+	</sql>
+	<insert id="insertProduct" parameterType="com.imooc.o2o.entity.Product"
+		useGeneratedKeys="true" keyProperty="productId" keyColumn="product_id">
+		INSERT INTO
+		tb_product(product_name,product_desc,img_addr,
+		normal_price,promotion_price,priority,create_time,
+		last_edit_time,enable_status,product_category_id,
+		shop_id)
+		VALUES
+		(#{productName},#{productDesc},#{imgAddr},
+		#{normalPrice},#{promotionPrice},#{priority},#{createTime},
+		#{lastEditTime},#{enableStatus},#{productCategory.productCategoryId},
+		#{shop.shopId})
+	</insert>
+	
+	<select id="queryProductById" parameterType="Long" resultMap="productMap">
+		SELECT 
+		p.product_id,
+		p.product_name,
+		p.product_desc,
+		p.img_addr,
+		p.normal_price,
+		p.promotion_price,
+		p.priority,
+		p.create_time,
+		p.last_edit_time,
+		p.enable_status,
+		p.product_category_id,
+		p.shop_id,
+		pm.product_img_id,
+		pm.img_addr,
+		pm.img_desc,
+		pm.priority,
+		pm.create_time
+		FROM
+		tb_product p
+		LEFT JOIN 
+		tb_product_img pm
+		ON
+		p.product_id = pm.product_id
+		WHERE
+		p.product_id = #{productId}
+		ORDER BY
+		pm.priority DESC
+	</select>
+	
+	<update id="updateProduct" parameterType="com.imooc.o2o.entity.Product">
+		UPDATE
+		tb_product
+		<set>
+			<if test="productName !=null and productName !=''">product_name = #{productName},</if>
+			<if test="productDesc != null and  productDesc != ''">product_desc = #{productDesc},</if>
+			<if test="imgAddr != null and imgAddr != ''">img_addr = #{imgAddr},</if>
+			<if test="normalPrice != null and normalPrice != ''">normal_price = #{normalPrice},</if>
+			<if test="promotionPrice != null and promotionPrice != ''">promotion_price = #{promotionPrice},</if>
+			<if test="priority != null and priority != ''">priority = #{priority},</if>
+			<if test="lastEditTime != null ">last_edit_time = #{lastEditTime},</if>
+			<if test="enableStatus != null and enableStatus != ''">enable_status = #{enableStatus},</if>
+			<if test="productCategory != null and productCategory.productCategoryId != null
+			 and productCategory.productCategoryId != ''">product_category_id = #{productCategory.productCategoryId}</if>
+		</set>
+		WHERE product_id = #{productId}
+		AND shop_id = #{shop.shopId}
+	</update>
+	
+		<!-- 将tb_product下的属于商品类别 的商品的商品类别id置空，就能取消product对删除商品类别的依赖-->
+	<update id="updateProductCategoryToNull" parameterType="Long">
+		UPDATE 
+		tb_product
+		SET
+		product_category_id = null
+		WHERE product_category_id = #{productCategoryId}
+	</update>
+		<!-- 查询商品列表并分页。可输入条件有：商品名（模糊），商品状态，店铺id,商品类别 -->
+	<select id="getProductListById"  resultType="com.imooc.o2o.entity.Product">
+		SELECT
+		<include refid="product"></include>
+		FROM
+		tb_product
+		<where>
+			<if test="productCondition.shop != null 
+				and productCondition.shop.shopId !=null ">
+				and shop_id = #{productCondition.shop.shopId}
+			</if>
+			
+			 <if test="productCondition.productCategory != null 
+			 	and productCondition.productCategoryId != null">
+			 	and product_category_id = #{productCondition.productCategory.productCategoryId}
+			 </if>
+			 <!-- 写like语句的时候一般都会写成like'% %'在mybatis里面写的就应该是like'%${name}%' 而不是like'%#{name}%'
+			 -->
+			<if test="productCondition.productName != null">and product_name like '%${productCondition.productName}%'</if>
+			<if test="productCondition.enableStatus != null">and enable_status = #{productCondition.enableStatus}</if>
+		</where>
+		ORDER BY 
+		priority DESC
+		LIMIT #{rowIndex},#{pageSize};
+	</select>
+	<!-- 查询商品总数 -->
+	<select id="queryProductCount"  resultType="int">
+		SELECT count(1) 
+		FROM 
+		tb_product
+		<where>
+			<if test="productCondition.shop != null 
+				and productCondition.shop.shopId != null">
+				and shop_id = #{productCondition.shop.shopId}
+			</if>
+			<if test="productCondition.productCategory !=null 
+				and productCondition.productCategory.productId != null">
+				and product_category_id = #{productCondition.productCategory.productCategoryId}
+			</if>
+			<if test="productCondition.productName != null">
+				and product_name like '%${productCondition.productName}%'
+			</if>
+			<if test="productCondition.enableStatus !=null">
+				and enable_status = #{productCondition.enableStatus}
+			</if>
+		</where>
+	</select>	
+</mapper>

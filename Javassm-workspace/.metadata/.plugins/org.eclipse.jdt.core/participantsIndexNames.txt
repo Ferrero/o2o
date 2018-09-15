@@ -1,0 +1,7 @@
+INDEX VERSION 1.130
+C:\Users\Rong\Javassm-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2412762766.index
+\o2o\src\main\resources
+C:\Users\Rong\Javassm-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2660035179.index
+\MavenDemo\src\main\resources
+C:\Users\Rong\Javassm-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\946837787.index
+\MavenDemo\src\main\java

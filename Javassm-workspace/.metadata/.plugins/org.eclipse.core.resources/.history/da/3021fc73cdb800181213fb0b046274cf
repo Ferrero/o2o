@@ -1,0 +1,21 @@
+package com.imooc.o2o.web.shopadmin;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+* @author xf
+* @version 2018年9月15日 下午5:04:42
+*/
+@Controller
+@RequestMapping(value = "/login")
+public class LocalAuthMangement {
+	private Map<String, Object> getUserNameAndPassWord(){
+		Map<String, Object> modelMap = new HashMap<String, Object>();
+		
+	}
+
+}
